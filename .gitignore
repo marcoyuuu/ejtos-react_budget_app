@@ -127,3 +127,62 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# node_modules
+node_modules/
+
+# Yarn
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Next.js build output
+.next
+
+# Nuxt.js build output
+.nuxt
+
+# Gatsby files
+.cache/
+# Comment in the public line in if your project uses Gatsby and not Next.js
+# public
+
+# vuepress build output
+.vuepress/dist
+
+# vue / nuxt.js build output
+dist/
+# Comment in the public line in if your project uses nuxt.js
+# public
+
+# Storybook build output
+out/
+
+# Docusaurus cache and build output
+.docusaurus
+.build
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Mac files
+.DS_Store
